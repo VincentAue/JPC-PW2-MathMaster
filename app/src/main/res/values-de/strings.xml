@@ -1,0 +1,24 @@
+<resources>
+    <string name="answer">Antwort</string>
+    <string name="app_name">MathMaster</string>
+    <string name="conclude_training">Training abschließen</string>
+    <string name="decimal_places">Wenn der Quotient mehr als zwei Dezimalstellen hat, schreibe nur die ersten beiden Ziffern ohne zu runden.</string>
+    <string name="easy">Einfach</string>
+    <string name="expert">Experte</string>
+    <string name="hard">Schwer</string>
+    <string name="medium">Mittel</string>
+    <string name="mixed">Gemischt</string>
+    <string name="my_saved_quizzes">Meine gespeicherten Quizze</string>
+    <string name="new_challenge">Neue Herausforderung</string>
+    <string name="progress">Um die nächste Herausforderung zu starten oder das Training abzuschließen, musst du zuerst diese Frage richtig beantworten.</string>
+    <string name="questions_in_this_run">"Fragen in dieser Runde: "</string>
+    <string name="quit_and_delete">Beenden und löschen</string>
+    <string name="result">Ergebnis</string>
+    <string name="save">Speichern</string>
+    <string name="start">Start</string>
+    <string name="training">Training</string>
+    <string name="which_difficulty">Welche Schwierigkeit möchtest du?</string>
+    <string name="which_operation">Welche Rechenoperation?</string>
+    <string name="your_challenge">Deine Aufgaben</string>
+    <string name="your_quizzes">Deine Quizze</string>
+</resources>

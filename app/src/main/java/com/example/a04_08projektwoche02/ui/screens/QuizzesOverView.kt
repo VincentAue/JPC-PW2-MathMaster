@@ -13,9 +13,11 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.a04_08projektwoche02.QuizViewModel
+import com.example.a04_08projektwoche02.R
 
 @Composable
 fun QuizzesOverView(
@@ -26,7 +28,7 @@ fun QuizzesOverView(
     Column(
         modifier = modifier
     ) {
-        Text("Your Quizzes")
+        Text(stringResource(R.string.your_quizzes))
         quizzes.forEach { quiz ->
             Column {
                 quiz.question.forEach { question ->

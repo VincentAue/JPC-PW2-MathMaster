@@ -8,7 +8,9 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
+import com.example.a04_08projektwoche02.R
 import com.example.a04_08projektwoche02.nav.SettingsScreenRoute
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -16,7 +18,7 @@ import com.example.a04_08projektwoche02.nav.SettingsScreenRoute
 fun MyTopBar(navController: NavController) {
     TopAppBar(
         title = {
-            Text("Training")
+            Text(stringResource(R.string.training))
         },
         navigationIcon = {
             IconButton(onClick = {
@@ -24,7 +26,7 @@ fun MyTopBar(navController: NavController) {
             }) {
                 Icon(
                     imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                    contentDescription = "Localized description"
+                    contentDescription = Icons.AutoMirrored.Filled.ArrowBack.name
                 )
             }
         }

@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">04-08 Projektwoche02</string>
+    <string name="answer">Answer</string>
+    <string name="app_name">MathMaster</string>
+    <string name="conclude_training">Conclude Training</string>
+    <string name="decimal_places">If the ratio has more than two decimal places, write only the first two digits without rounding.</string>
+    <string name="easy">Easy</string>
+    <string name="expert">Expert</string>
+    <string name="hard">Hard</string>
+    <string name="medium">Medium</string>
+    <string name="mixed">Mixed</string>
+    <string name="my_saved_quizzes">My saved Quizzes</string>
+    <string name="new_challenge">New Challenge</string>
+    <string name="progress">For the next Challenge or for concluding the training, you must complete this question first.</string>
+    <string name="questions_in_this_run">"Questions in this run: "</string>
+    <string name="quit_and_delete">Quit and delete</string>
+    <string name="result">Result</string>
+    <string name="save">Save</string>
+    <string name="start">Start</string>
+    <string name="training">Training</string>
+    <string name="which_difficulty">Which Difficulty do you want?</string>
+    <string name="which_operation">Which Operation?</string>
+    <string name="your_challenge">Your Challenge</string>
+    <string name="your_quizzes">Your Quizzes</string>
 </resources>

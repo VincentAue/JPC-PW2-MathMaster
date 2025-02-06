@@ -14,8 +14,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.navigation.NavController
+import com.example.a04_08projektwoche02.R
 import com.example.a04_08projektwoche02.nav.CalculateScreenRoute
 import com.example.a04_08projektwoche02.nav.ScoreViewRoute
 import kotlin.random.Random
@@ -73,20 +75,19 @@ fun Training(
 
     var questionColor by remember { mutableStateOf(textColor) }
     Column {
-        Text("Your Challenge")
+        Text(stringResource(R.string.your_challenge))
         Text(
             text = "$question = $userInput",
             color = questionColor
         )
         if(selectedOperation.value == "/") {
-            Text("If the ratio has more than two decimal places, " +
-                    "write only the first two digits without rounding.")
+            Text(stringResource(R.string.decimal_places))
         }
         Row {
             TextField(
                 value = userInput,
                 onValueChange = { userInput = it },
-                label = { Text("Result") },
+                label = { Text(stringResource(R.string.result)) },
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
             )
         }
@@ -100,12 +101,11 @@ fun Training(
             },
             enabled = userInput != ""
         ) {
-            Text("Answer")
+            Text(stringResource(R.string.answer))
         }
 
         if (questionColor != Color.Green) {
-            Text("For the next Challenge or for concluding the training, " +
-                    "you must complete this question first.")
+            Text(stringResource(R.string.progress))
         }
 
         Button(
@@ -115,7 +115,7 @@ fun Training(
             },
             enabled = questionColor == Color.Green
         ) {
-            Text("New Challenge")
+            Text(stringResource(R.string.new_challenge))
         }
 
         Button(
@@ -125,7 +125,7 @@ fun Training(
             },
             enabled = questionColor == Color.Green
         ) {
-            Text("Conclude Training")
+            Text(stringResource(R.string.conclude_training))
         }
     }
 }
