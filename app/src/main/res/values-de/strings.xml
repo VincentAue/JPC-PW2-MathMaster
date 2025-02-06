@@ -9,8 +9,8 @@
     <string name="medium">Mittel</string>
     <string name="mixed">Gemischt</string>
     <string name="my_saved_quizzes">Meine gespeicherten Quizze</string>
-    <string name="new_challenge">Neue Herausforderung</string>
-    <string name="progress">Um die nächste Herausforderung zu starten oder das Training abzuschließen, musst du zuerst diese Frage richtig beantworten.</string>
+    <string name="new_challenge">Neue Aufgabe</string>
+    <string name="progress">Um die nächste Aufgabe zu starten oder das Training abzuschließen, musst du zuerst diese Frage richtig beantworten.</string>
     <string name="questions_in_this_run">"Fragen in dieser Runde: "</string>
     <string name="quit_and_delete">Beenden und löschen</string>
     <string name="result">Ergebnis</string>
